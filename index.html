@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	</head>
+</head>
+<body>
+
+	<a href="" class="dog">doberman</a> 
+	<a href="" class="dog">chihuahua</a>
+	<a href="" class="dog">boxer</a>
+	<a href="" class="dog">dingo</a>
+	<a href="" class="dog">mix</a>
+
+	<div class="dogs"></div>
+
+	<script id="dogs-template" type="text/x-handlerbars-template">
+		<div class="entry">
+			<img src="{{ dogs.url }}">
+		</div>
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+	<script src="app.js"></script>
+
+</body>
+</html>
